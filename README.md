@@ -1,32 +1,40 @@
-This repository features a demo of a Salesforce CRM project developed as part of a hands-on learning internship experience. The project demonstrates how Salesforce can be used to create a low-code, customizable platform to manage customer interactions, inventory, and order processing efficiently.
+This repository features a demonstration of a Salesforce CRM project developed as part of a hands-on learning internship. The project shows how Salesforce can be used to build a low-code, customizable platform for managing customer interactions, product inventory, and order processing efficiently.
 
 About the Project
-This project is designed to reflect a real-world business scenario, where products are tracked in inventory, customers place orders, and the system handles everything from stock deduction to sending automated notifications. It brings together the core capabilities of Salesforce, including:
+This project is designed to reflect a practical business scenario, where products are tracked in inventory, customers place orders, and the system handles tasks such as stock deduction and automated notifications. It combines both Salesforce’s declarative tools and programmatic features to deliver a complete CRM solution.
 
-Customer and Order Management:
+Customer and Order Management
 Add and manage customer records
+
 Place orders linked to specific customers and products
+
 View and update order details including status, price, and quantity
 
-Inventory Management:
+Inventory Management
 Add and update product inventory
-Automatically track stock levels
-Block orders when an item is out of stock
 
-Automation Using Flows:
-Flows are used to automate tasks like:
-Deducting stock when an order is placed
-Sending alert emails for low inventory
-Notifying customers as part of a loyalty program
+Automatically track stock levels
+
+Prevent orders when an item is out of stock
+
+Automation Using Flows
+Flows are used to automate routine processes:
+
+Deduct stock when an order is placed
+
+Send alert emails when inventory levels are low
+
+Notify customers as part of a loyalty program
 
 Custom Logic with Apex
-Apex triggers ensure that only valid orders are placed
-Custom code updates inventory and order records in the background
+Apex triggers ensure only valid orders are processed
 
-This repository contains:
-The full Salesforce source code including Apex classes, triggers, flows, and object definitions
-A folder of screenshots to visually explain how the system works
+Custom code handles inventory updates and order logic behind the scenes
 
-A video walkthrough demonstrating the project in action
-Click the link below to watch the project walkthrough:
+Repository Contents
+Salesforce source code including Apex classes, triggers, flows, and object definitions
+
+A folder of screenshots that walk through the key features and functionality
+
+A video demonstration of the project in action
 https://drive.google.com/file/d/1-zAD36qmaqNAqF9pD7ztnf7y2lywXUCG/view?usp=sharing
