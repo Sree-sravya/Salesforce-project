@@ -1,38 +1,32 @@
 This repository features a demo of a Salesforce CRM project developed as part of a hands-on learning internship experience. The project demonstrates how Salesforce can be used to create a low-code, customizable platform to manage customer interactions, inventory, and order processing efficiently.
 
-Key Features
-1. Custom Objects:
-The project includes several custom objects such as Customer, Order, Inventory, and Item. These objects are interconnected using lookup and master-detail relationships to maintain data consistency.
+About the Project
+This project is designed to reflect a real-world business scenario, where products are tracked in inventory, customers place orders, and the system handles everything from stock deduction to sending automated notifications. It brings together the core capabilities of Salesforce, including:
 
-2. Customer Management:
-New customers can be created and tracked using custom fields. Their purchase history and interactions are maintained within the system for easy reference.
+Customer and Order Management:
+Add and manage customer records
+Place orders linked to specific customers and products
+View and update order details including status, price, and quantity
 
-3. Order Placement:
-Users can place new orders by selecting customers and items from the inventory. Each order captures essential details like quantity, price, date, and status. The system updates inventory levels automatically.
+Inventory Management:
+Add and update product inventory
+Automatically track stock levels
+Block orders when an item is out of stock
 
-4. Inventory Management:
-A custom object manages inventory items, tracking stock levels, item details, and availability. The system prevents orders from being placed if an item is out of stock.
+Automation Using Flows:
+Flows are used to automate tasks like:
+Deducting stock when an order is placed
+Sending alert emails for low inventory
+Notifying customers as part of a loyalty program
 
-5. Flow Automation:
-Flows are used to automate repetitive tasks such as sending confirmation emails after order placement, updating inventory counts, and notifying users when stock is low. Record-triggered flows reduce manual effort and improve accuracy.
+Custom Logic with Apex
+Apex triggers ensure that only valid orders are placed
+Custom code updates inventory and order records in the background
 
-6. Apex Code:
-Where declarative tools fall short, Apex triggers and classes are used to implement logic—such as validating order quantities, custom price calculations, and auto-assigning order statuses.
+This repository contains:
+The full Salesforce source code including Apex classes, triggers, flows, and object definitions
+A folder of screenshots to visually explain how the system works
 
-Demo Overview
-The video walkthrough in this repository explains how to:
-
-Add new customers
-
-Create and manage orders
-
-Add and monitor inventory items
-
-View automated updates and flows in action
-
-Explore the Apex code used for custom logic
-
-Purpose
-This project simulates a scalable, real-world CRM application using Salesforce’s platform capabilities. It highlights the balance between no-code tools like flows and code-based extensions through Apex, making it easy to maintain while still powerful and flexible.
+A video walkthrough demonstrating the project in action
 Click the link below to watch the project walkthrough:
 https://drive.google.com/file/d/1-zAD36qmaqNAqF9pD7ztnf7y2lywXUCG/view?usp=sharing
